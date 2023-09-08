@@ -243,7 +243,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1451715462}
+      - m_Target: {fileID: 1451715464}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
         m_MethodName: OnPlayerNameUpdate
         m_Mode: 2
@@ -569,7 +569,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1451715462}
+      - m_Target: {fileID: 1451715464}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
         m_MethodName: OnStartGameButton
         m_Mode: 1
@@ -1061,7 +1061,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1451715462}
+      - m_Target: {fileID: 1451715464}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
         m_MethodName: OnJoinRoomButton
         m_Mode: 2
@@ -1195,7 +1195,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1451715462}
+      - m_Target: {fileID: 1451715464}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
         m_MethodName: OnLeaveLobbyButton
         m_Mode: 1
@@ -1329,7 +1329,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1451715462}
+      - m_Target: {fileID: 1451715464}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
         m_MethodName: OnCreateRoomButton
         m_Mode: 2
@@ -2200,8 +2200,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1451715463}
-  - component: {fileID: 1451715462}
   - component: {fileID: 1451715461}
+  - component: {fileID: 1451715464}
   m_Layer: 0
   m_Name: _Menu
   m_TagString: Untagged
@@ -2231,24 +2231,6 @@ MonoBehaviour:
   sceneViewId: 2
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &1451715462
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1451715460}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2de81a8c133d0c3499330f3c330ec7a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainScreen: {fileID: 243450916}
-  lobbyScreen: {fileID: 883764601}
-  createRoomButton: {fileID: 766777321}
-  joinRoomButton: {fileID: 607069207}
-  playerListText: {fileID: 1425410030}
-  startGameButton: {fileID: 373294885}
 --- !u!4 &1451715463
 Transform:
   m_ObjectHideFlags: 0
@@ -2264,6 +2246,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1451715464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451715460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1051840da4efc834aa63ef5894699ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainScreen: {fileID: 243450916}
+  lobbyScreen: {fileID: 883764601}
+  createRoomButton: {fileID: 766777321}
+  joinRoomButton: {fileID: 607069207}
+  playerListText: {fileID: 1425410030}
+  startGameButton: {fileID: 373294885}
 --- !u!1 &1526047832
 GameObject:
   m_ObjectHideFlags: 0
