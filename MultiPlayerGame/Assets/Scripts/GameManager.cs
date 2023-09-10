@@ -46,7 +46,7 @@ public class GameManager : MonoBehaviourPunCallbacks
         if (playersInGame == PhotonNetwork.PlayerList.Length)
             SpawnPlayer();
     }
-
+    [PunRPC]
     void SpawnPlayer()
     {
         // instantiate the player across the network
